@@ -11,8 +11,8 @@ class Const : Plugin<Project> {
 
     companion object {
 
-        const val featureVersionCode = 1_00_00
-        const val featureVersionName = "1.00.00"
+        const val featureComposeRatioVersionCode = 1 // 1_00_00
+        const val featureComposeRatioVersionName = "0.00.01"
 
         const val compileSdkVersion = 33
         const val targetSdkVersion = 33

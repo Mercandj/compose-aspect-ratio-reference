@@ -7,13 +7,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven(url = "https://maven.fabric.io/public")
-
-        // Check dependencies.
-        // https://github.com/ben-manes/gradle-versions-plugin
-        gradlePluginPortal()
-
-        maven(url = "file:///users/jonathan/Documents/maven")
+        maven(url = "https://jitpack.io")
     }
 
     dependencies {

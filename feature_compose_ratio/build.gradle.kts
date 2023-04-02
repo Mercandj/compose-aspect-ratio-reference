@@ -3,6 +3,7 @@ import com.mercandalli.build_src.main.Const
 plugins {
     id("com.android.library")
     kotlin("android")
+    id("maven-publish")
 }
 
 android {
@@ -20,6 +21,13 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+    }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
         }
     }
 
@@ -53,4 +61,16 @@ dependencies {
 
     // https://developer.android.com/jetpack/androidx/releases/compose-material3
     implementation("androidx.compose.material3:material3:1.0.1")
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.mercandalli.android.sdk"
+            artifactId = "compose_ratio"
+            version = Const.featureComposeRatioVersionName
+
+            afterEvaluate { from(components["release"]) }
+        }
+    }
 }
