@@ -56,7 +56,8 @@ android {
 }
 
 dependencies {
-    implementation("com.github.Mercandj:compose-aspect-ratio-reference:1.00.00")
+    // implementation("com.github.Mercandj:compose-aspect-ratio-reference:1.00.01")
+    implementation(project(":feature_compose_ratio"))
 
     // AndroidX
     implementation("androidx.annotation:annotation:1.6.0")
