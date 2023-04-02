@@ -1,3 +1,5 @@
+![Cards](https://user-images.githubusercontent.com/3717316/229348080-6464b0b7-0954-49b7-9172-8a08251d2136.jpg)
+
 [![](https://jitpack.io/v/Mercandj/compose-aspect-ratio-reference.svg)](https://jitpack.io/#Mercandj/compose-aspect-ratio-reference)
 
 # Compose - Aspect Ratio Reference
@@ -12,8 +14,6 @@ Library to complete the JetPack Compose `Modifier.aspectRatio` with a reference.
 - `parent height`
 - `min(parent width, parent height)`
 - `max(parent width, parent height)`
-
-![preview](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*pmS0_cNRQhOe5mmOMA2HkA.png)
 
 ## How to integrate?
 
@@ -45,3 +45,7 @@ How to **give me free support** to help me maintain this lib:
 - Clap 👏 on [Medium](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee) 🙏
 
 ![Goku Genkidama](https://user-images.githubusercontent.com/3717316/229345557-4094875a-c889-4c18-8f9f-bd4c6ef754f3.jpg)
+
+## Preview
+
+![preview](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*pmS0_cNRQhOe5mmOMA2HkA.png)
