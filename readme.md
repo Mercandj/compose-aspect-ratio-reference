@@ -37,7 +37,11 @@ dependencies {
 }
 ```
 
-## References
+## About
 
-Full article
-on [Medium article](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee).
+How to **give me free support** to help me maintain this lib:
+
+- Put a star ⭐️ this git project 🙏
+- Clap 👏 on [Medium](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee) 🙏
+
+![Goku Genkidama](https://user-images.githubusercontent.com/3717316/229345557-4094875a-c889-4c18-8f9f-bd4c6ef754f3.jpg)
