@@ -1,4 +1,4 @@
-[![Cards](https://user-images.githubusercontent.com/3717316/229348080-6464b0b7-0954-49b7-9172-8a08251d2136.jpg)](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee)
+[![Cards](https://user-images.githubusercontent.com/3717316/229355050-c5224a53-fd0b-49cf-9fbb-0fe8f880727b.jpg?raw=true)](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee)
 
 [![](https://jitpack.io/v/Mercandj/compose-aspect-ratio-reference.svg)](https://jitpack.io/#Mercandj/compose-aspect-ratio-reference)
 
@@ -6,7 +6,7 @@
 
 ## What?
 
-Library to complete the JetPack Compose `Modifier.aspectRatio` with a reference.
+Jetpack Compose [`Modifier.aspectRatio`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier#(androidx.compose.ui.Modifier).aspectRatio(kotlin.Float,kotlin.Boolean)) does not let you choose the reference.
 
 **Goal.** Choose the reference to compute the ratio based on:
 
@@ -17,12 +17,11 @@ Library to complete the JetPack Compose `Modifier.aspectRatio` with a reference.
 
 ## How to integrate?
 
-**Step 1.** In project root `build.gradle` or `build.gradle.kts`:
+**Step 1.** In project root `build.gradle` or `build.gradle.kts`, add:
 
 ```groovy
 allprojects {
     repositories {
-        // ...
         maven { url 'https://jitpack.io' } // Groovy: build.gradle
         maven(url = "https://jitpack.io") // Kotlin: build.gradle.kts
     }
