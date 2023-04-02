@@ -3,10 +3,10 @@
 ## How to release a new version?
 
 1. Bump `Const.kt` version name
-2. Bump main `readme.md` integration guide version
-3. Commit `[Version] Bump to X.YY.ZZ`
-4. Create a Github release
-5. Bump the `app` dependency
+2. Bump the `app` dependency
+3. Bump main `readme.md` integration guide version
+4. Commit `[Version] Bump to X.YY.ZZ`
+5. Create a Github release
 
 ## How to update main thumbnail?
 
