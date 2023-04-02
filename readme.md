@@ -1,4 +1,4 @@
-![Cards](https://user-images.githubusercontent.com/3717316/229348080-6464b0b7-0954-49b7-9172-8a08251d2136.jpg)
+[![Cards](https://user-images.githubusercontent.com/3717316/229348080-6464b0b7-0954-49b7-9172-8a08251d2136.jpg)](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee)
 
 [![](https://jitpack.io/v/Mercandj/compose-aspect-ratio-reference.svg)](https://jitpack.io/#Mercandj/compose-aspect-ratio-reference)
 
@@ -65,4 +65,4 @@ How to **give me free support** to help me maintain this lib:
 
 ## Preview
 
-![preview](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*pmS0_cNRQhOe5mmOMA2HkA.png)
+[![preview](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*pmS0_cNRQhOe5mmOMA2HkA.png)](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee)

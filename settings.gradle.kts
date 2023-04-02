@@ -4,6 +4,7 @@ includeBuild("build_src")
 rootProject.buildFileName = "build.gradle.kts"
 rootProject.name = "compose-aspect-ratio-reference"
 include(
+    ":app",
     ":feature_compose_ratio"
 )
 
