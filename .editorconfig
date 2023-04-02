@@ -1,0 +1,28 @@
+# https://github.com/JakeWharton/SdkSearch/blob/master/.editorconfig
+
+[*.{kt,kts}]
+indent_size = 4
+
+# https://github.com/android/kotlin-guides/issues/37
+# https://github.com/shyiko/ktlint/issues/120
+# https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+# Default Android Studio seems to be 8 and should be 4
+continuation_indent_size = 4
+
+insert_final_newline = true
+
+# https://github.com/pinterest/ktlint#editorconfig
+# Comma-separated list of rules to disable (Since 0.34.0)
+# Note that rules in any ruleset other than the standard ruleset will need to be prefixed
+# by the ruleset identifier.
+# package-name: To be able to have underscore inside package name to keep a flat architecture
+root = true
+
+[*.kt]
+ktlint_standard_max-line-length = disabled
+ktlint_standard_package-name = disabled
+ktlint_standard_annotation = disabled
+ktlint_standard_spacing-between-declarations-with-annotations = disabled
+ktlint_standard_argument-list-wrapping = disabled
+ktlint_standard_multiline-if-else = disabled
+ktlint_standard_wrapping = disabled
