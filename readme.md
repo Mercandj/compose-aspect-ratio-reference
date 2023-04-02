@@ -8,7 +8,7 @@
 
 Library to complete the JetPack Compose `Modifier.aspectRatio` with a reference.
 
-**The goal.** Choose the reference to compute the ratio based on:
+**Goal.** Choose the reference to compute the ratio based on:
 
 - `parent width`
 - `parent height`
@@ -17,23 +17,40 @@ Library to complete the JetPack Compose `Modifier.aspectRatio` with a reference.
 
 ## How to integrate?
 
-**Step 1.** In project root `build.gradle`
+**Step 1.** In project root `build.gradle` or `build.gradle.kts`:
 
 ```groovy
 allprojects {
     repositories {
         // ...
-        maven { url 'https://jitpack.io' } // Groovy
-        maven(url = "https://jitpack.io") // Kts
+        maven { url 'https://jitpack.io' } // Groovy: build.gradle
+        maven(url = "https://jitpack.io") // Kotlin: build.gradle.kts
     }
 }
 ```
 
-**Step 2.** In your app `build.gradle`, add the dependency
+**Step 2.** Add the dependency in app `build.gradle` or `build.gradle.kts`:
 
 ```groovy
 dependencies {
     implementation("com.github.Mercandj:compose-aspect-ratio-reference:0.00.01")
+}
+```
+
+## How to use it?
+
+```kotlin
+Box(modifier = Modifier.width(300.dp).height(200.dp)) { // Parent
+    Surface( // Child
+        color = Color.Red,
+        modifier = Modifier
+            .aspectRatioReference(
+                aspectRatioWidth = 1f,
+                aspectRatioHeight = 1f,
+                aspectRatioReference = AspectRatioReference.MIN
+            )
+            .align(Alignment.Center)
+    ) {}
 }
 ```
 
