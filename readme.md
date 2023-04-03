@@ -1,6 +1,7 @@
 [![Cards](https://user-images.githubusercontent.com/3717316/229355050-c5224a53-fd0b-49cf-9fbb-0fe8f880727b.jpg?raw=true)](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee)
 
 [![](https://jitpack.io/v/Mercandj/compose-aspect-ratio-reference.svg)](https://jitpack.io/#Mercandj/compose-aspect-ratio-reference)
+[![medium](https://img.shields.io/badge/medium-article%20👏-607D8B.svg?style=flat-square&label=medium)](https://medium.com/@jonathan.mercandalli_41381/aspect-ratio-with-reference-in-jetpack-compose-9bf9b79016ee)
 
 # Compose - Aspect Ratio Reference
 
