@@ -33,7 +33,7 @@ allprojects {
 
 ```groovy
 dependencies {
-    implementation("com.github.Mercandj:compose-aspect-ratio-reference:1.00.01")
+    implementation("com.github.Mercandj:compose-aspect-ratio-reference:1.00.02")
 }
 ```
 
