@@ -51,7 +51,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.4"
+        kotlinCompilerExtensionVersion = "1.4.4-dev-k1.8.20-f6ae19e64ff"
     }
 }
 
@@ -64,10 +64,10 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
 
     // JetPack Compose
-    implementation("androidx.compose.ui:ui:1.4.0")
-    debugImplementation("androidx.compose.ui:ui-tooling:1.4.0")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.4.0")
-    implementation("androidx.compose.foundation:foundation:1.4.0")
+    implementation("androidx.compose.ui:ui:1.4.1")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.4.1")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.4.1")
+    implementation("androidx.compose.foundation:foundation:1.4.1")
     implementation("androidx.activity:activity-compose:1.7.0")
     implementation("androidx.compose.material3:material3:1.0.1")
 }

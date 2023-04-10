@@ -12,7 +12,7 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:7.4.2")
-        classpath(kotlin("gradle-plugin", version = "1.8.10"))
+        classpath(kotlin("gradle-plugin", version = "1.8.20"))
     }
 }
 
@@ -21,6 +21,13 @@ allprojects {
         google()
         mavenCentral()
         maven(url = "https://jitpack.io")
+
+        // JetPack Compose - Mobile
+        // https://developer.android.com/jetpack/androidx/releases/compose-kotlin#pre-release_kotlin_compatibility
+        // https://androidx.dev/storage/compose-compiler/repository
+        // https://github.com/jimgoog/ComposeAppUsingPrereleaseComposeCompiler#project-configuration
+        // https://github.com/jimgoog/ComposeAppUsingPrereleaseComposeCompiler/blob/main/settings.gradle#L14
+        maven(url = "https://androidx.dev/storage/compose-compiler/repository/")
     }
 }
 

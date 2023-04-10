@@ -47,7 +47,7 @@ android {
     composeOptions {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin#pre-release_kotlin_compatibility
         // https://github.com/jimgoog/ComposeAppUsingPrereleaseComposeCompiler#project-configuration
-        kotlinCompilerExtensionVersion = "1.4.4"
+        kotlinCompilerExtensionVersion = "1.4.4-dev-k1.8.20-f6ae19e64ff"
     }
 }
 
@@ -55,9 +55,9 @@ dependencies {
 
     // JetPack Compose
     // https://developer.android.com/jetpack/androidx/releases/compose-kotlin#pre-release_kotlin_compatibility
-    implementation("androidx.compose.ui:ui:1.4.0")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.4.0")
-    debugImplementation("androidx.compose.ui:ui-tooling:1.4.0")
+    implementation("androidx.compose.ui:ui:1.4.1")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.4.1")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.4.1")
 
     // https://developer.android.com/jetpack/androidx/releases/compose-material3
     implementation("androidx.compose.material3:material3:1.0.1")
