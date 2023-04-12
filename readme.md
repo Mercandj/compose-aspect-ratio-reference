@@ -7,9 +7,9 @@
 
 ## What?
 
-Jetpack Compose [`Modifier.aspectRatio`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier#(androidx.compose.ui.Modifier).aspectRatio(kotlin.Float,kotlin.Boolean)) does not let you choose the reference.
+Jetpack Compose [`Modifier.aspectRatio`](https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier#(androidx.compose.ui.Modifier).aspectRatio(kotlin.Float,kotlin.Boolean)) does not let you choose the reference to compute the ration.
 
-**Goal.** Choose the reference to compute the ratio based on:
+**Goal.** Be able to choose compose the ratio based on:
 
 - `parent width`
 - `parent height`
