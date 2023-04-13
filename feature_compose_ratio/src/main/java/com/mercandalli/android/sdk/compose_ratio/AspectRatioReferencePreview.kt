@@ -27,8 +27,8 @@ private fun Parent_200_200_Child_w3_h2_ref_height() {
             border = BorderStroke(1.dp, ratioViewPreviewChildStrokeColor),
             modifier = Modifier
                 .aspectRatioReference(
-                    aspectRatioWidth = 3f,
-                    aspectRatioHeight = 2f,
+                    ratioWidth = 3f,
+                    ratioHeight = 2f,
                     AspectRatioReference.PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
@@ -45,8 +45,8 @@ private fun Parent_200_200_Child_w1_h2_ref_height() {
             border = BorderStroke(1.dp, ratioViewPreviewChildStrokeColor),
             modifier = Modifier
                 .aspectRatioReference(
-                    aspectRatioWidth = 1f,
-                    aspectRatioHeight = 2f,
+                    ratioWidth = 1f,
+                    ratioHeight = 2f,
                     AspectRatioReference.PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
@@ -63,8 +63,8 @@ private fun Parent_200_300_Child_w1_h1_ref_min() {
             border = BorderStroke(1.dp, ratioViewPreviewChildStrokeColor),
             modifier = Modifier
                 .aspectRatioReference(
-                    aspectRatioWidth = 1f,
-                    aspectRatioHeight = 1f,
+                    ratioWidth = 1f,
+                    ratioHeight = 1f,
                     AspectRatioReference.MIN_PARENT_WIDTH_PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
@@ -81,8 +81,8 @@ private fun Parent_200_300_Child_w1_h1_ref_max() {
             border = BorderStroke(1.dp, ratioViewPreviewChildStrokeColor),
             modifier = Modifier
                 .aspectRatioReference(
-                    aspectRatioWidth = 1f,
-                    aspectRatioHeight = 1f,
+                    ratioWidth = 1f,
+                    ratioHeight = 1f,
                     AspectRatioReference.MAX_PARENT_WIDTH_PARENT_HEIGHT
                 )
                 .align(Alignment.Center)

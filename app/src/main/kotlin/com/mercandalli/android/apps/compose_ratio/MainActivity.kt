@@ -39,9 +39,9 @@ class MainActivity : AppCompatActivity() {
                     ),
                     modifier = Modifier
                         .aspectRatioReference(
-                            aspectRatioWidth = 3f,
-                            aspectRatioHeight = 2f,
-                            aspectRatioReference = AspectRatioReference.PARENT_HEIGHT
+                            ratioWidth = 3f,
+                            ratioHeight = 2f,
+                            reference = AspectRatioReference.PARENT_HEIGHT
                         )
                         .align(Alignment.Center)
                 ) {}
