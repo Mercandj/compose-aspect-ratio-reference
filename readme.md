@@ -47,7 +47,7 @@ Box(modifier = Modifier.width(300.dp).height(200.dp)) { // Parent
             .aspectRatioReference(
                 aspectRatioWidth = 1f,
                 aspectRatioHeight = 1f,
-                aspectRatioReference = AspectRatioReference.MIN
+                aspectRatioReference = AspectRatioReference.MIN_PARENT_WIDTH_PARENT_HEIGHT
             )
             .align(Alignment.Center)
     ) {}

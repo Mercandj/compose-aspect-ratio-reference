@@ -29,7 +29,7 @@ private fun Parent_200_200_Child_w3_h2_ref_height() {
                 .aspectRatioReference(
                     aspectRatioWidth = 3f,
                     aspectRatioHeight = 2f,
-                    AspectRatioReference.HEIGHT
+                    AspectRatioReference.PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
         ) {}
@@ -47,7 +47,7 @@ private fun Parent_200_200_Child_w1_h2_ref_height() {
                 .aspectRatioReference(
                     aspectRatioWidth = 1f,
                     aspectRatioHeight = 2f,
-                    AspectRatioReference.HEIGHT
+                    AspectRatioReference.PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
         ) {}
@@ -65,7 +65,7 @@ private fun Parent_200_300_Child_w1_h1_ref_min() {
                 .aspectRatioReference(
                     aspectRatioWidth = 1f,
                     aspectRatioHeight = 1f,
-                    AspectRatioReference.MIN
+                    AspectRatioReference.MIN_PARENT_WIDTH_PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
         ) {}
@@ -83,7 +83,7 @@ private fun Parent_200_300_Child_w1_h1_ref_max() {
                 .aspectRatioReference(
                     aspectRatioWidth = 1f,
                     aspectRatioHeight = 1f,
-                    AspectRatioReference.MAX
+                    AspectRatioReference.MAX_PARENT_WIDTH_PARENT_HEIGHT
                 )
                 .align(Alignment.Center)
         ) {}

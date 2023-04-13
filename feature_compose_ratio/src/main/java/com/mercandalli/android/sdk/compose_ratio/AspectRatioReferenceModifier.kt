@@ -27,7 +27,7 @@ import kotlin.math.roundToInt
 fun Modifier.aspectRatioReference(
     aspectRatioWidth: Float,
     aspectRatioHeight: Float,
-    aspectRatioReference: AspectRatioReference = AspectRatioReference.MIN
+    aspectRatioReference: AspectRatioReference = AspectRatioReference.MIN_PARENT_WIDTH_PARENT_HEIGHT
 ) = then(
     AspectRatioReferenceModifier(
         aspectRatioWidth = aspectRatioWidth,
@@ -109,13 +109,13 @@ private class AspectRatioReferenceModifier(
     }
 
     private fun Constraints.findSize(): IntSize {
-        val matchWidth = when (aspectRatioReference) {
-            AspectRatioReference.WIDTH -> true
-            AspectRatioReference.HEIGHT -> false
-            AspectRatioReference.MIN -> maxWidth < maxHeight
-            AspectRatioReference.MAX -> maxWidth > maxHeight
+        val matchPARENTWidth = when (aspectRatioReference) {
+            AspectRatioReference.PARENT_WIDTH -> true
+            AspectRatioReference.PARENT_HEIGHT -> false
+            AspectRatioReference.MIN_PARENT_WIDTH_PARENT_HEIGHT -> maxWidth < maxHeight
+            AspectRatioReference.MAX_PARENT_WIDTH_PARENT_HEIGHT -> maxWidth > maxHeight
         }
-        return if (matchWidth) {
+        return if (matchPARENTWidth) {
             IntSize(maxWidth, (maxWidth * aspectRatioHeight / aspectRatioWidth).roundToInt())
         } else {
             IntSize((maxHeight * aspectRatioWidth / aspectRatioHeight).roundToInt(), maxHeight)

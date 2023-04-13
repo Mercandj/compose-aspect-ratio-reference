@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                         .aspectRatioReference(
                             aspectRatioWidth = 3f,
                             aspectRatioHeight = 2f,
-                            aspectRatioReference = AspectRatioReference.HEIGHT
+                            aspectRatioReference = AspectRatioReference.PARENT_HEIGHT
                         )
                         .align(Alignment.Center)
                 ) {}
