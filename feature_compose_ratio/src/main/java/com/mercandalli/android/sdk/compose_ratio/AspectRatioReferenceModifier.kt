@@ -125,12 +125,10 @@ private class AspectRatioReferenceModifier(
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         val otherModifier = other as? AspectRatioReferenceModifier ?: return false
-        return ratio == otherModifier.ratio &&
-            reference == other.reference
+        return ratio == otherModifier.ratio && reference == other.reference
     }
 
-    override fun hashCode(): Int =
-        ratio.hashCode() * 31 + reference.hashCode()
+    override fun hashCode(): Int = ratio.hashCode() * 31 + reference.hashCode()
 
     override fun toString(): String = "AspectRatioReferenceModifier(" +
         "ratioWidth=$ratioWidth, " +
